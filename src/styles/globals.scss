@@ -4,4 +4,28 @@
   padding: 0;
 }
 
-// TODO
+:root{
+  --bg: #1A1D23;
+  --white: #F8F8F8;
+  --pink: #FF57B2;
+  --gray-light: #D7D7D7
+  --gray-dark: #BBBBBB;
+}
+
+@media(max-width: 1080px){
+  html{
+    font-size: 93.75%;
+  }
+}
+
+
+@media(max-width: 720px){
+  html{
+    font-size: 87.5%;
+  }
+}
+
+body{
+  background: var(--bg);
+  color: var(--white);
+}
