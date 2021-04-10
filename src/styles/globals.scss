@@ -4,28 +4,53 @@
   padding: 0;
 }
 
-:root{
-  --bg: #1A1D23;
-  --white: #F8F8F8;
-  --pink: #FF57B2;
-  --gray-light: #D7D7D7
-  --gray-dark: #BBBBBB;
+:root {
+  --bg: #1a1d23;
+  --bg-light: #2c313b;
+  --bg-light-100: #1f1f1f;
+  --white: #f8f8f8;
+  --pink: #ff57b2;
+  --gray-light: #d7d7d7;
+  --gray-dark: #bbbbbb;
+
+  --svg-size: 1.3rem;
 }
 
-@media(max-width: 1080px){
-  html{
+@media (max-width: 1080px) {
+  html {
     font-size: 93.75%;
   }
 }
 
-
-@media(max-width: 720px){
-  html{
+@media (max-width: 720px) {
+  html {
     font-size: 87.5%;
   }
 }
-
-body{
+body {
   background: var(--bg);
-  color: var(--white);
+}
+body,
+input,
+textarea,
+button,
+select {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.containerGeral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
 }

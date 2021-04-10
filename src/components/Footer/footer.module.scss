@@ -1,0 +1,19 @@
+.footerContainer {
+  width: 100%;
+  background: var(--pink);
+  margin-top: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  div {
+    height: 5rem;
+    max-width: 788px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    img {
+      margin-left: 0.5rem;
+    }
+  }
+}

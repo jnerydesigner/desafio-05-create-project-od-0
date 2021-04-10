@@ -1,1 +1,25 @@
-// TODO
+.headerContainer {
+  width: 100%;
+  background: var(--bg);
+  z-index: 2;
+  div {
+    height: 5rem;
+    max-width: 788px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      margin-left: 0.5rem;
+    }
+    a {
+      display: block;
+      padding: 1.2rem;
+      svg {
+        width: var(--svg-size);
+        height: var(--svg-size);
+        color: var(--pink);
+      }
+    }
+  }
+}
